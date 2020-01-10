@@ -1,7 +1,7 @@
 Name: mythes-en
 Summary: English thesaurus
 Version: 3.0
-Release: 13%{?dist}
+Release: 12%{?dist}
 Source: http://www.danielnaber.de/wn2ooo/wn2ooo20050723.tgz
 Group: Applications/Text
 URL: http://www.danielnaber.de/wn2ooo/
@@ -45,9 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.0-13
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.0-12
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
